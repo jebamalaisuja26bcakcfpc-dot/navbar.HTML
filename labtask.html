@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Verdana, sans-serif;
+        }
+
+        /* Navigation Bar */
+        nav{
+            background-color:blue;
+            height:70px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 20px;
+        }
+
+        /* Logo */
+        .logo{
+            color:yellow;
+            font-size:30px;
+            font-weight:bold;
+        }
+
+        /* Menu */
+        ul{
+            list-style:none;
+            display:flex;
+        }
+
+        ul li{
+            margin-left:35px;
+        }
+
+        ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:20px;
+            transition:0.3s;
+        }
+
+        ul li a:hover{
+            color:lime;
+        }
+
+        /* Content */
+        .content{
+            text-align:center;
+            margin-top:80px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">My Website</div>
+
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">profile</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Welcome to Portfolio</h1>
+        <p>This website is created using HTML and CSS.</p>
+    </div>
+
+</body>
+</html>
